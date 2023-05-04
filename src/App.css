@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito:wght@400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,122 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mapPopUp {
+  width: 500px;
+  height: 480px;
+  background: #FCF7F7;
+  color: #000000;
+  position: absolute;
+  box-shadow: 0px 0px 5px 5px #ffff;
+  margin-top: 14px;
+}
+.cancel-btn{
+  padding: 12px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: end; */
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background: #e0cbcb;
+  position: relative;
+  top: 10;
+  bottom: 250px;
+  /* right: -112px; */
+  left: 112px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 500pc;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.wrapper button{
+  padding: 12px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: end; */
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background: #e0cbcb;
+}
+.wrapper h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+.wrapper p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.property-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+}
+.propertyDetail {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px 10px #FCF7F7;
+  background: #FCF7F7;
+  padding: 60px;
+  border-radius: 20px;
+
+}
+.propertyDetail h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.propertyDetail h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.propertyDetail h4{
+  font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0
+
+}
+.propertyDetail p{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.back-home{
+  position: relative;
+  top: -180px;
+  /* bottom: -6px; */
+  left: 8px;
+  right: 0;
+  padding: 12px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: end; */
+  /* float: right; */
+  /* margin-right: 30px; */
+  /* margin-top: 20px; */
+  border-radius: 10px;
+  border: none;
+  background: #e0cbcb;
 }
